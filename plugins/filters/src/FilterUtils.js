@@ -43,7 +43,7 @@ export default {
         this.activeRenderTarget = this.getRenderTarget(renderer.gl, width, height);
 
         renderer.state.setRenderTarget(this.activeRenderTarget);
-    }
+    },
 
     /**
      * Gets a render target that a filter can use.
